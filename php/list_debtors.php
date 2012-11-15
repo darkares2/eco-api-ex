@@ -36,7 +36,7 @@ try
 
 	$me = $_SERVER['PHP_SELF'];
 	
-	$wsdlUrl = 'https://www.e-conomic.com/secure/api1/EconomicWebservice.asmx?WSDL';
+	$wsdlUrl = 'https://api.e-conomic.com/secure/api1/EconomicWebservice.asmx?WSDL';
 		
 	$client = new SoapClient($wsdlUrl, array("trace" => 1, "exceptions" => 1));    		
 	
