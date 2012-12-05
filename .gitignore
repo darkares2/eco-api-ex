@@ -37,3 +37,7 @@ tests/*
 doc/*
 SolutionVersion.cs
 gems/lib/**/*
+
+.idea
+target
+*.iml
